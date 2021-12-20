@@ -18,3 +18,5 @@ def create_bucket(bucket_name, region=None):
         return false
     return True
   
+# -------------------------------------------------------------------------------------------------------
+# Creates s3 bucket. If region not indicated in function, then default region is us-east-1
