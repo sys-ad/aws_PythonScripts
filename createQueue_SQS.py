@@ -1,3 +1,5 @@
+# python3.7
+
 import boto3 # Import python SDK Boto3 for AWS 
 
 sqs = boto3.resource('sqs') # retrive sqs resource
