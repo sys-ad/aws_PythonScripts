@@ -1,3 +1,5 @@
+#python3.7
+
 import logging
 import boto3
 from botocore.exceptions import ClientError
