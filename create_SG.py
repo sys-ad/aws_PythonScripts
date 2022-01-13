@@ -1,9 +1,9 @@
 #Python3.x
 
-# Creates security group
-
 import boto3
 client = boto3.client('ec2')
+
+# Creates security group
 response = client.create_security_group(
     Description='Description',    # Description place holder
     GroupName='xxx',    # Security group name
